@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+# Uncook — Mindful Break & Focus App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile application designed to help users overcome digital burnout and doomscrolling by providing gentle nudges, personalized micro-mindfulness exercises, and AI-powered coaching to restore attention and improve mental wellbeing.
 
-## Get started
+---
 
-1. Install dependencies
+## Project Overview
+
+Uncook helps users:
+
+- Detect prolonged scrolling or addictive app usage
+- Interrupt with gentle, supportive nudges
+- Offer short mindfulness exercises (1–3 min)
+- Track digital usage and suggest personalized “digital diets”
+- Provide an AI-powered conversational coach
+- Enable Focus Mode to restrict distracting apps
+- Collect mood and attention data for self-awareness
+
+---
+
+## Key Features (MVP)
+
+1. **Scroll & Usage Detection** (Android MVP)
+2. **Smart Nudges** (Push notifications, in-app modals)
+3. **Micro-Mindfulness Exercises** (Guided, interactive, 1–3 min)
+4. **Digital Diet Tracking** (Screen time, app categories, goals)
+5. **Focus Mode** (Timer-based, motivational reminders)
+6. **Mood & Attention Journal** (Quick prompts, trends)
+7. **AI-Powered Coach** (Conversational UI, OpenAI backend)
+
+---
+
+## Tech Stack
+
+- **Frontend:** React Native (Expo, TypeScript)
+- **State:** Redux Toolkit
+- **Navigation:** React Navigation
+- **Notifications:** Expo Notifications
+- **Storage:** AsyncStorage
+- **Backend:** Node.js + Express (OpenAI proxy)
+- **AI:** OpenAI GPT-4 API
+
+---
+
+## Folder Structure
+
+```
+/src
+  /components        # Reusable UI components
+  /screens           # App screens (Home, Mindfulness, Journal, Coach, Settings)
+  /navigation        # Navigation setup
+  /store             # Redux Toolkit store
+  /services          # API clients, notifications, usage tracking
+  /assets            # Images, audio, fonts
+  /utils             # Helpers
+```
+
+---
+
+## Setup Instructions
+
+1. **Clone & Install**
 
    ```bash
+   git clone https://github.com/yourusername/uncook.git
+   cd uncook
    npm install
    ```
 
-2. Start the app
+2. **Environment Variables**
+   - Create a `.env` file:
+
+     ```ini
+     OPENAI_API_KEY=your_openai_key_here
+     ```
+
+3. **Run the App**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Backend Server**
+   - See `/backend` for Node.js Express server setup.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contribution
 
-## Get a fresh project
+Open to contributions — fork, add features or fixes, and submit pull requests. Report issues for bugs or ideas.
 
-When you're ready, run:
+## License
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+MIT License © 2025 Your Name

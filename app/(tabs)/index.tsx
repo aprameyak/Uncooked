@@ -1,3 +1,5 @@
+// Home screen for Uncook app
+// Scaffold MVP features: usage tracking, nudges, dashboard, etc.
 import { Image } from 'expo-image';
 import { Platform, StyleSheet } from 'react-native';
 
