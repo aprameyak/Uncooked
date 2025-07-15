@@ -8,9 +8,9 @@ Node.js + Express server for Uncook AI Coach (OpenAI GPT-4 proxy)
    ```bash
    npm install
    ```
-2. Create a `.env` file:
+2. Create a `.env` file with your Gemini API key:
    ```ini
-   OPENAI_API_KEY=your_openai_key_here
+   GEMINI_API_KEY=your_gemini_api_key_here
    PORT=3001
    ```
 3. Start the server:
@@ -27,3 +27,7 @@ Node.js + Express server for Uncook AI Coach (OpenAI GPT-4 proxy)
 ---
 
 **Keep your API key secret!** 
+
+## Notes
+
+- This backend now uses the Google Gemini API (https://ai.google.dev/). You must obtain a Gemini API key from Google AI Studio or the Google Cloud Console. 

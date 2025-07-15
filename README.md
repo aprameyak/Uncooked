@@ -37,8 +37,8 @@ Uncook helps users:
 - **Navigation:** React Navigation
 - **Notifications:** Expo Notifications
 - **Storage:** AsyncStorage
-- **Backend:** Node.js + Express (OpenAI proxy)
-- **AI:** OpenAI GPT-4 API
+- **Backend:** Node.js + Express (Gemini proxy)
+- **AI:** Google Gemini API
 
 ---
 
@@ -71,7 +71,7 @@ Uncook helps users:
    - Create a `.env` file:
 
      ```ini
-     OPENAI_API_KEY=your_openai_key_here
+     GEMINI_API_KEY=your_gemini_api_key_here
      ```
 
 3. **Run the App**
