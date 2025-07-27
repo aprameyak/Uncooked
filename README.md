@@ -2,20 +2,9 @@
 
 A React Native mobile application designed to help users develop mindfulness practices, improve focus, and build healthier digital habits through guided exercises, professional coaching, and wellness tracking.
 
----
+## About
 
-## Project Overview
-
-Uncook helps users:
-
-- **Develop mindfulness practices** through guided exercises
-- **Improve focus and concentration** with structured training sessions
-- **Track wellness progress** with detailed journaling and insights
-- **Get professional guidance** through AI-powered wellness coaching
-- **Build consistent habits** with progress tracking and milestones
-- **Enhance mental clarity** through mindful living practices
-
----
+**Uncook** is a mobile application built with **React Native** and **TypeScript**, designed to help users overcome digital burnout and doomscrolling. It delivers gentle nudges, personalized micro-mindfulness exercises, and AI-powered coaching to restore attention and improve mental wellbeing.
 
 ## Key Features (Working)
 
@@ -27,8 +16,6 @@ Uncook helps users:
 6. **7-Day Wellness Challenge** - Structured mindfulness program
 7. **Progress Tracking** - Visual feedback on focus and wellness improvements
 
----
-
 ## Tech Stack
 
 - **Frontend:** React Native (Expo, TypeScript)
@@ -38,8 +25,6 @@ Uncook helps users:
 - **Storage:** AsyncStorage
 - **Backend:** Node.js + Express (Gemini proxy)
 - **AI:** Google Gemini API
-
----
 
 ## Folder Structure
 
@@ -53,8 +38,6 @@ Uncook helps users:
   /assets            # Images, audio, fonts
   /utils             # Helpers
 ```
-
----
 
 ## Setup Instructions
 
@@ -82,8 +65,6 @@ Uncook helps users:
 4. **Backend Server**
    - See `/backend` for Node.js Express server setup.
 
----
-
 ## How It Helps
 
 ### **Mindfulness Development**
@@ -104,8 +85,6 @@ Uncook helps users:
 - Progress tracking and insights
 - Habit formation support
 
----
-
 ## iOS Deployment Ready
 
 - ✅ Native iOS project generated
@@ -113,8 +92,6 @@ Uncook helps users:
 - ✅ Professional UI/UX design
 - ✅ Working backend integration
 - ✅ Complete wellness companion
-
----
 
 ## Contribution
 
