@@ -1,6 +1,6 @@
-# Uncook — Mindful Break & Focus App
+# Uncook — Digital Wellness App
 
-A React Native mobile application designed to help users overcome digital burnout and doomscrolling by providing gentle nudges, personalized micro-mindfulness exercises, and AI-powered coaching to restore attention and improve mental wellbeing.
+A React Native mobile application designed to help users develop mindfulness practices, improve focus, and build healthier digital habits through guided exercises, professional coaching, and wellness tracking.
 
 ---
 
@@ -8,25 +8,24 @@ A React Native mobile application designed to help users overcome digital burnou
 
 Uncook helps users:
 
-- Detect prolonged scrolling or addictive app usage
-- Interrupt with gentle, supportive nudges
-- Offer short mindfulness exercises (1–3 min)
-- Track digital usage and suggest personalized “digital diets”
-- Provide an AI-powered conversational coach
-- Enable Focus Mode to restrict distracting apps
-- Collect mood and attention data for self-awareness
+- **Develop mindfulness practices** through guided exercises
+- **Improve focus and concentration** with structured training sessions
+- **Track wellness progress** with detailed journaling and insights
+- **Get professional guidance** through AI-powered wellness coaching
+- **Build consistent habits** with progress tracking and milestones
+- **Enhance mental clarity** through mindful living practices
 
 ---
 
-## Key Features (MVP)
+## Key Features (Working)
 
-1. **Scroll & Usage Detection** (Android MVP)
-2. **Smart Nudges** (Push notifications, in-app modals)
-3. **Micro-Mindfulness Exercises** (Guided, interactive, 1–3 min)
-4. **Digital Diet Tracking** (Screen time, app categories, goals)
-5. **Focus Mode** (Timer-based, motivational reminders)
-6. **Mood & Attention Journal** (Quick prompts, trends)
-7. **AI-Powered Coach** (Conversational UI, OpenAI backend)
+1. **Wellness Dashboard** - Track mindful time, sessions, and progress
+2. **Mindfulness Exercises** - 6 guided practices (2-6 min sessions)
+3. **Wellness Coach** - Professional AI guidance for mindfulness and focus
+4. **Wellness Journal** - Track mood, attention quality, and milestones
+5. **Focus Mode** - Timer-based sessions (15-90 min) for concentration training
+6. **7-Day Wellness Challenge** - Structured mindfulness program
+7. **Progress Tracking** - Visual feedback on focus and wellness improvements
 
 ---
 
@@ -47,7 +46,7 @@ Uncook helps users:
 ```
 /src
   /components        # Reusable UI components
-  /screens           # App screens (Home, Mindfulness, Journal, Coach, Settings)
+  /screens           # App screens (Home, Mindfulness, Coach, Journal, Focus)
   /navigation        # Navigation setup
   /store             # Redux Toolkit store
   /services          # API clients, notifications, usage tracking
@@ -82,6 +81,38 @@ Uncook helps users:
 
 4. **Backend Server**
    - See `/backend` for Node.js Express server setup.
+
+---
+
+## How It Helps
+
+### **Mindfulness Development**
+- Guided breathing and meditation exercises
+- Progressive focus training sessions
+- Mindful awareness practices
+- Stress reduction techniques
+
+### **Focus Enhancement**
+- Structured concentration training (15-90 min)
+- Single-task focus development
+- Distraction management strategies
+- Neural pathway strengthening
+
+### **Wellness Coaching**
+- Personalized AI conversations
+- Evidence-based mindfulness guidance
+- Progress tracking and insights
+- Habit formation support
+
+---
+
+## iOS Deployment Ready
+
+- ✅ Native iOS project generated
+- ✅ All dependencies installed and configured
+- ✅ Professional UI/UX design
+- ✅ Working backend integration
+- ✅ Complete wellness companion
 
 ---
 
