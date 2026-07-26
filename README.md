@@ -1,27 +1,29 @@
-# Uncook — Digital Wellness App
+# Uncooked
 
-A React Native mobile application designed to help users develop mindfulness practices, improve focus, and build healthier digital habits through guided exercises, professional coaching, and wellness tracking.
+![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
+![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white&style=for-the-badge)
+![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge)
 
 ## About
 
-**Uncook** is a mobile application built with **React Native** and **TypeScript**, designed to help users overcome digital burnout and doomscrolling. It delivers gentle nudges, personalized micro-mindfulness exercises, and AI-powered coaching to restore attention and improve mental wellbeing.
+**Uncooked** is a digital wellness mobile app built with **React Native**, **Expo**, and **Redux Toolkit** that helps users break free from doomscrolling and digital burnout. It offers guided mindfulness exercises, a focus timer, an AI-powered wellness coach backed by the **Google Gemini API**, and a journal for tracking mood and attention quality.
 
-## Key Features (Working)
+## Features
 
-1. **Wellness Dashboard** - Track mindful time, sessions, and progress
-2. **Mindfulness Exercises** - 6 guided practices (2-6 min sessions)
-3. **Wellness Coach** - Professional AI guidance for mindfulness and focus
-4. **Wellness Journal** - Track mood, attention quality, and milestones
-5. **Focus Mode** - Timer-based sessions (15-90 min) for concentration training
-6. **7-Day Wellness Challenge** - Structured mindfulness program
-7. **Progress Tracking** - Visual feedback on focus and wellness improvements
+- Wellness dashboard tracking mindful time, sessions, and overall progress
+- Six guided mindfulness exercises with step-by-step breathing instructions
+- Focus mode with configurable 15–90 minute concentration timers
+- AI wellness coach powered by Google Gemini via a Node.js proxy backend
+- Wellness journal for logging mood, attention quality, and milestones
+- 7-day structured mindfulness challenge
+- Push notifications via Expo Notifications to encourage consistent practice
 
-## Tech Stack
+## Technology Stack
 
-- **Frontend:** React Native (Expo, TypeScript)
-- **State:** Redux Toolkit
-- **Navigation:** React Navigation
-- **Notifications:** Expo Notifications
-- **Storage:** AsyncStorage
-- **Backend:** Node.js + Express (Gemini proxy)
-- **AI:** Google Gemini API
+- **Mobile**: React Native, Expo, TypeScript
+- **State Management**: Redux Toolkit
+- **Navigation**: React Navigation, Expo Router
+- **Backend**: Node.js, Express
+- **AI**: Google Gemini API
+- **Storage**: AsyncStorage
