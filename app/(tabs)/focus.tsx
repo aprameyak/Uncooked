@@ -120,7 +120,7 @@ export default function FocusScreen() {
         <View style={styles.progressCard}>
           <ThemedText type="defaultSemiBold">Week 1: Building Focus</ThemedText>
           <ThemedText style={styles.progressText}>
-            You're successfully building focus stamina through consistent practice. Your mind is developing better concentration habits.
+            You&apos;re successfully building focus stamina through consistent practice. Your mind is developing better concentration habits.
           </ThemedText>
           <View style={styles.progressBar}>
             <View style={[styles.progressFill, { width: '75%' }]} />

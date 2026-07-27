@@ -61,7 +61,7 @@ export default function JournalScreen() {
 
       {/* Mood Selection */}
       <ThemedView style={styles.section}>
-        <ThemedText type="subtitle">How's your focus today?</ThemedText>
+        <ThemedText type="subtitle">How&apos;s your focus today?</ThemedText>
         <View style={styles.moodContainer}>
           {moods.map((mood) => (
             <TouchableOpacity
