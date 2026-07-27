@@ -33,7 +33,7 @@ export default function HomeScreen() {
 
       {/* Wellness Stats */}
       <ThemedView style={styles.statsContainer}>
-        <ThemedText type="subtitle">Today's Progress</ThemedText>
+        <ThemedText type="subtitle">Today&apos;s Progress</ThemedText>
         <View style={styles.statsRow}>
           <View style={styles.statCard}>
             <Ionicons name="time-outline" size={24} color={Colors[colorScheme ?? 'light'].tint} />
